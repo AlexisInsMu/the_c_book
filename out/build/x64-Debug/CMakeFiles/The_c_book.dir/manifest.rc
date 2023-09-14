@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "F:/c_projects/the_c_book/out/build/x64-Debug/CMakeFiles/The_c_book.dir/embed.manifest"
