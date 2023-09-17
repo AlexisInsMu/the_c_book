@@ -217,13 +217,6 @@ build ContinuousSubmit: phony CMakeFiles\ContinuousSubmit
 
 build cmake_object_order_depends_target_The_c_book: phony || CMakeFiles\The_c_book.dir
 
-build CMakeFiles\The_c_book.dir\first_chapter\exercises20-24s.c.obj: C_COMPILER__The_c_book_unscanned_Debug F$:\c_projects\the_c_book\first_chapter\exercises20-24s.c || cmake_object_order_depends_target_The_c_book
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = CMakeFiles\The_c_book.dir
-  OBJECT_FILE_DIR = CMakeFiles\The_c_book.dir\first_chapter
-  TARGET_COMPILE_PDB = CMakeFiles\The_c_book.dir\
-  TARGET_PDB = The_c_book.pdb
-
 build CMakeFiles\The_c_book.dir\first_chapter\exercise1-23.c.obj: C_COMPILER__The_c_book_unscanned_Debug F$:\c_projects\the_c_book\first_chapter\exercise1-23.c || cmake_object_order_depends_target_The_c_book
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
   OBJECT_DIR = CMakeFiles\The_c_book.dir
@@ -239,7 +232,7 @@ build CMakeFiles\The_c_book.dir\first_chapter\exercise1-23.c.obj: C_COMPILER__Th
 #############################################
 # Link the executable The_c_book.exe
 
-build The_c_book.exe: C_EXECUTABLE_LINKER__The_c_book_Debug CMakeFiles\The_c_book.dir\first_chapter\exercises20-24s.c.obj CMakeFiles\The_c_book.dir\first_chapter\exercise1-23.c.obj
+build The_c_book.exe: C_EXECUTABLE_LINKER__The_c_book_Debug CMakeFiles\The_c_book.dir\first_chapter\exercise1-23.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

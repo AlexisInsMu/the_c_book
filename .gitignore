@@ -5,3 +5,5 @@
 *.pdb
 
 /.vscode/
+/.vs/
+out/
