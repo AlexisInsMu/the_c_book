@@ -4,7 +4,7 @@ project(The_c_book VERSION 0.1.0 LANGUAGES C)
 include(CTest)
 enable_testing()
 
-add_executable(The_c_book first_chapter/exercise1-23.c)
+add_executable(The_c_book "first_chapter/exercise1-24.c")
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
